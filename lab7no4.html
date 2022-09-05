@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            function countTheWord(sentence){
+                var wordcount =sentence.match(/the/gi).length;
+                alert("มี The ทั้งหมด " +wordcount+" คำ")
+            }
+        </script>
+        
+    </head>
+
+    <body>
+        The eighth ruler of the Fifth Dynasty in the late 25th century.<br><br>
+        <a href="#" onclick="countTheWord('the eighth ruler of the Fifth Dynasty in the late 25th century')">
+        Click for count 'the'</a>
+    </body>
+</html>
